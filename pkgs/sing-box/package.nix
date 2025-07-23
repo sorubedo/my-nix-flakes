@@ -46,7 +46,7 @@ buildGoModule (finalAttrs: {
   # 5. 将正确的 vendorHash 复制粘贴到这里。
   #
   # 我也为你计算好了 v1.12.0-rc.2 的 vendorHash。
-  vendorHash = "sha256-4g1jXm2Uv2z2u8+x7Xn/u/LgK6kPz6fK393JzG9L0X8=";
+  vendorHash = "sha256-tyGCkVWfCp7F6NDw/AlJTglzNC/jTMgrL8q9Au6Jqec=";
 
   # 构建标签保持不变，这些是 sing-box 的功能开关
   tags = [
