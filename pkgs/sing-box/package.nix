@@ -32,7 +32,7 @@ buildGoModule (finalAttrs: {
     # 4. 将正确的哈希值复制粘贴到这里。
     #
     # 为方便你直接使用，我已经为你计算好了 v1.12.0-rc.2 的哈希。
-    hash = "sha256-wA+i7gZ0a8k5nO5L5Q/fR5yG7V9CjXh/H0Y4t+YyYII=";
+    hash = "sha256-VftcUOXQRkeaMJ3Bz4xO+aSzSoXb2Rh9dVNfrqAr8JQ=";
   };
 
   # -------------------  第四处修改  -------------------
