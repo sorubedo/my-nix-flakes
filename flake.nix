@@ -12,7 +12,7 @@
       let
         # 获取当前系统的 nixpkgs 实例
         pkgs = import nixpkgs { inherit system; };
-
+        lib = pkgs.lib;
         # --- 自动发现包的逻辑 (保持不变, 但更清晰) ---
         # 扫描 ./pkgs 目录下的所有子目录（每个子目录代表一个包）
         packagesPath = ./pkgs;
