@@ -31,7 +31,6 @@ buildGoModule (finalAttrs: {
     # 3. Nix 构建会失败，并提示你正确的哈希值。
     # 4. 将正确的哈希值复制粘贴到这里。
     #
-    # 为方便你直接使用，我已经为你计算好了 v1.12.0-rc.2 的哈希。
     hash = "sha256-VftcUOXQRkeaMJ3Bz4xO+aSzSoXb2Rh9dVNfrqAr8JQ=";
   };
 
